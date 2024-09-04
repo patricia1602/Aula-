@@ -1,0 +1,36 @@
+body {
+    background-color: #d6c0c0;
+}
+h1, h2, h3, h4, h5, h6, .texto-apagado {
+    color: #1b7a31;
+    font-family: verdana;
+    font-size: 30px;
+    
+    }
+    
+    h2 {
+        color: #7825c6;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    
+    img {
+        width: 400px;
+        height: auto;
+    }
+      
+    .texto-apagado {
+        font-family: blueviolet;
+        color: #d8d8d8;
+    }
+
+    .maiusculo {
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 12px;
+        color: green;
+    }
+
+   

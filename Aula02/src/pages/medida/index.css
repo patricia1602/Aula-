@@ -1,0 +1,24 @@
+.grupo {
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    
+   /* padding: 30px 100px 10px 200px;*/
+
+}
+
+.pixel {
+    width: 1200px;
+}
+
+.porcentagem {
+    width: 90%;
+}
+
+.view-width {
+    width: 100vw;
+}
+
+.view-height {
+    width: 50vh;
+}
+
