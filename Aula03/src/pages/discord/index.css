@@ -1,0 +1,55 @@
+/* body * {
+    border: 2px solid green;
+    margin: 5px;
+} */
+
+body {
+    background-color: #fff;
+}
+
+.secao-biblioteca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 80px;
+    background-color: rgb(246, 246, 246);
+}
+
+.secao-biblioteca .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.secao-biblioteca .textos h1 {
+    font: 700 50px/50px 'Discord';
+    color: #23272A;
+}
+
+.secao-biblioteca .textos p {
+    font: 400 16px/24px 'Discord';
+    color: #2b2f31;
+}
+
+
+.secao-biblioteca .textos a {
+    display: flex;
+    gap: 10px;
+
+    font: 600 16px/24px 'Discord';
+    text-decoration: none;
+    color: #2b2f31;
+}
+
+.secao-biblioteca img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.secao-biblioteca .textos .arrow {
+    width: 18px;
+}
