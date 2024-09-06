@@ -25,3 +25,10 @@
     src: url('/public/assets/fonts/discord-bold.woff2');
     font-weight: 700;
 }
+
+
+@font-face {
+    font-family: 'Discord';
+    src: url('/public/assets/fonts/discord-extrabold.woff2');
+    font-weight: 800;
+}

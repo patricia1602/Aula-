@@ -53,3 +53,134 @@ body {
 .secao-biblioteca .textos .arrow {
     width: 18px;
 }
+
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.secao-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 170px;
+
+    padding: 20px 20px 70px 20px;
+    background-color: #5865f2;
+    color: #fff;
+}
+
+
+.secao-inicio header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    width: 100%;
+}
+
+.secao-inicio header .logo {
+    width: 120px;
+}
+
+.secao-inicio header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.secao-inicio header nav a {
+    font: 600 16px 'Discord';
+}
+
+.secao-inicio header button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font: 700 14px 'Discord';
+    padding: 10px 14px;
+    border-radius: 100px;
+}
+
+.secao-inicio main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    width: 100%;
+}
+
+.secao-inicio main .textos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 550px;
+}
+
+.secao-inicio main .textos h1 {
+    font: 800 50px/50px 'Discord';
+    text-transform: uppercase;
+}
+
+.secao-inicio main .textos p {
+    font: 400 16px/22px 'Discord';
+}
+
+.secao-inicio main .capa {
+    width: 600px;
+
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+
+.secao-inicio .botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    max-width: 1200px;
+    width: 100%;
+
+    position: relative;
+    bottom: 80px;
+}
+
+.secao-inicio .botoes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #fff;
+    color: #000;
+
+    width: 360px;
+    height: 100px;
+    padding: 0px 20px;
+
+    border-radius: 12px;
+    box-shadow: 5px 5px 0 1px #57F287;
+}
+
+.secao-inicio .botoes a span {
+    font: 800 18px 'Discord';
+    text-transform: uppercase;
+    text-align: center;
+}
