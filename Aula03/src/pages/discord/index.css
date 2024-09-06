@@ -18,11 +18,21 @@ body {
     background-color: rgb(246, 246, 246);
 }
 
+.secao-biblioteca .imagem {
+    width: 100%;
+    max-width: 400px;
+}
+
+.secao-biblioteca .imagem img {
+    width: 100%;
+}
+
 .secao-biblioteca .textos {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 500px;
+    min-width: 300px;
 }
 
 .secao-biblioteca .textos h1 {
@@ -62,8 +72,6 @@ body {
 
 
 
-
-
 a {
     text-decoration: none;
     color: inherit;
@@ -76,9 +84,11 @@ a {
     align-items: center;
     gap: 170px;
 
-    padding: 20px 20px 70px 20px;
+    padding: 20px 70px 70px 70px;
     background-color: #5865f2;
     color: #fff;
+
+    overflow-x: hidden;
 }
 
 
@@ -171,7 +181,7 @@ a {
     background-color: #fff;
     color: #000;
 
-    width: 360px;
+    width: calc(33% - 20px);
     height: 100px;
     padding: 0px 20px;
 
@@ -183,4 +193,100 @@ a {
     font: 800 18px 'Discord';
     text-transform: uppercase;
     text-align: center;
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .secao-inicio main .capa {
+        width: 500px;
+        left: 10px;
+        bottom: 50px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .secao-inicio {
+        padding: 20px 45px;
+        gap: 100px;
+    }
+
+    .secao-inicio header nav,
+    .secao-inicio header button,
+    .secao-inicio .capa {
+        display: none;
+    }
+
+    .secao-inicio main .textos {
+        width: unset;
+    }
+
+    .secao-inicio .botoes {
+        bottom: 50px;
+    }
+
+    .secao-inicio .botoes a {
+        width: calc(50% - 10px);
+    }
+    
+    .secao-inicio .botoes a span {
+        font: 800 14px 'Discord';
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .secao-inicio {
+        gap: 60px;
+    }
+
+    .secao-inicio .botoes {
+        bottom: 25px;
+    }
+
+    .secao-inicio main .textos h1 {
+        font: 800 36px/36px 'Discord';
+    }
+
+
+
+
+
+     .secao-biblioteca {
+        flex-direction: column-reverse;
+        align-items: start;
+        padding: 35px;
+     }
+
+     .secao-biblioteca .textos {
+        max-width: 550px;
+        width: unset;
+        min-width: unset;
+     }
+
+     .secao-biblioteca .textos h1 {
+        font: 700 34px/34px 'Discord';
+     }
+
+     .secao-biblioteca .textos h1 br {
+        display: none;
+     }
+
+     .secao-biblioteca .imagem {
+        max-width: unset;
+     }
+
+
+    
+    /* 
+        Código CSS que vai ser executado quando a tela for MENOR ou IGUAL a 1300px 
+    */
+
 }
